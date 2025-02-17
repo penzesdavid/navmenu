@@ -1,0 +1,95 @@
+body{
+    background-color: #3d3332;
+}
+                
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 25%;
+    background-color: #111111;
+    height: 130%; /* Full height */
+    position: absolute; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    clear: both;
+    
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    border-bottom: 1px solid gray;
+    text-decoration: none; 
+}
+  
+li a:hover {
+    background-color: #a0a0a0;
+    color: rgb(255, 255, 255);
+}
+
+header{
+    background-image: url('./bordofal.jpg');
+    height: 110px;
+}
+
+h1{
+    color: #fff;
+    padding: 40px;
+}
+
+#tartalom{
+    background-image: url('./hatter.jpg');
+    margin-left:  250px;
+    padding: 10px;
+    clear: both;
+    
+}
+
+footer{
+    background-color: #520e15;
+    color: #b9b9b9;
+    text-align: right;
+    height: 40px;
+}
+
+footer p{
+    padding: 15px;
+}
+
+h2{margin: 20px;}
+
+#menu1{
+    background-color: rgba(253, 253, 253, 0.4);
+    border: 3px solid rgba(253, 253, 253, 0.4);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+    
+}
+
+#menu2{
+    background-color: rgba(253, 253, 253, 0.4);
+    border: 3px solid rgba(253, 253, 253, 0.4);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+#menu3{
+    background-color: rgba(253, 253, 253, 0.4);
+    border: 3px solid rgba(253, 253, 253, 0.4);
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+    
+#tartalom p{
+    text-align: justify;
+    padding: 5px;
+}
